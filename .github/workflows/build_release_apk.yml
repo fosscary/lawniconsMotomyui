@@ -1,33 +1,32 @@
 name: Build Signed Release APK
 
 on:
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch:
   push:
     tags:
-      - 'v*'  # 触发条件：推送 tag 时自动构建（例如 v1.0.0）
+      - 'v*'
 
 jobs:
   build:
-    name: Build Release APK
     runs-on: ubuntu-latest
-
     steps:
-      # --- 步骤 1: 检出代码 ---
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # --- 步骤 2: 设置 Java 环境 ---
+      - name: Clean project
+        run: |
+          ./gradlew clean
+          rm -rf app/build/
+
       - name: Set up JDK 21
         uses: actions/setup-java@v3
         with:
           distribution: 'zulu'
           java-version: 21
 
-      # --- 步骤 3: 配置 Gradle 缓存 ---
       - name: Setup Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      # --- 步骤 4: 配置签名密钥 ---
       - name: Setup signing keys
         env:
           KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
@@ -35,30 +34,19 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          # 解码 Base64 密钥文件
           echo "$KEYSTORE_BASE64" | base64 -d > keystore.jks
-
-          # 生成 keystore.properties
           echo "storeFile=keystore.jks" > keystore.properties
           echo "storePassword=$KEYSTORE_PASS" >> keystore.properties
           echo "keyAlias=$KEY_ALIAS" >> keystore.properties
           echo "keyPassword=$KEY_PASSWORD" >> keystore.properties
-
-          # 移动配置文件到项目目录
           mkdir -p app/
           mv keystore.* app/
 
-      # --- 步骤 5: 构建 Release APK ---
       - name: Build signed APK
-        run: ./gradlew assembleRelease
+        run: ./gradlew assembleRelease --warning-mode=all
 
-      # --- 步骤 6: 验证产物路径 ---
-      - name: List APK files
-        run: ls -R app/build/outputs/apk/release/
-
-      # --- 步骤 7: 上传 APK ---
-      - name: Upload Release APK
+      - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: Lawnicons-Signed-APK
+          name: Lawnicons-Signed
           path: app/build/outputs/apk/release/*.apk
