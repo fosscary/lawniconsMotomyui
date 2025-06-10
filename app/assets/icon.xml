@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resources> 
+<item component="ComponentInfo{com.tencent.mm/com.tencent.mm.ui.LauncherUI}" drawable="wechat" name="WeChat"   /> 
+<item component="ComponentInfo{com.sankuai.meituan.dispatch.crowdsource/com.meituan.banma.main.activity.MainSplashActivity}" drawable="meituan_takeaway" name="美团众包"  /> 
+<item component="ComponentInfo{com.sankuai.meituan/com.meituan.android.pt.homepage.activity.MainActivity}" drawable="conta_digital_ifood" name="美团"  /> 
+<item component="ComponentInfo{com.sankuai.meituan/com.sankuai.meituan.MPMainActivity}" drawable="meituan" name="美团 -Meituan" /> 
+<item component="ComponentInfo{com.sankuai.meituan/com.sankuai.meituan.activity.Welcome}" drawable="meituan" name="美团 -Meituan" /> 
+<item component="ComponentInfo{com.sankuai.meituan/com.sankuai.meituan.activity.PreloadedWelcome}" drawable="meituan" name="美团 -Meituan" /> 
+<item component="ComponentInfo{com.sankuai.meituan/com.sankuai.meituan.activity.FlashWelcome}" drawable="meituan" name="美团 -Meituan" /> 
+<item component="ComponentInfo{com.sankuai.meituan/com.meituan.android.pt.homepage.activity.Welcome}" drawable="meituan" name="美团 -Meituan" /> 
+<item component="ComponentInfo{com.unionpay/com.unionpay.activity.UPActivityMain}" drawable="unionpay" name="云闪付"  /> 
+<item component="ComponentInfo{cn.net.cosbike/cn.net.cosbike.ui.SplashActivity}" drawable="caelus" name="科斯特换电"  /> 
+<item component="ComponentInfo{com.autonavi.minimap/com.autonavi.map.activity.SplashActivity}" drawable="amap" name="高德地图"  /> 
+<item component="ComponentInfo{com.dudubird.weather/com.dudubird.weather.StartActivity}" drawable="asus_weather" name="手机天气"  /> 
+<item component="ComponentInfo{com.ss.android.ugc.aweme.lite/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok_helper" name="抖音极速版"  /> 
+<item component="ComponentInfo{com.phoenix.read/com.dragon.read.pages.splash.SplashActivity}" drawable="video_live_wallpaper" name="红果短剧"  /> 
+<item component="ComponentInfo{com.termux/com.termux.app.TermuxActivity}" drawable="termux_x11" name="termux"  /> 
+<item component="ComponentInfo{com.microsoft.outlooklite/com.microsoft.outlooklite.sms.SmsMainActivity}" drawable="microsoft_outlook" name="Outlook Lite"  /> 
+<item component="ComponentInfo{net.typeblog.shelter/net.typeblog.shelter.ui.DummyActivity}" drawable="shelter" name="Shelter" /> 
+<item component="ComponentInfo{net.typeblog.shelter/net.typeblog.shelter.ui.MainActivity}" drawable="shelter" name="Shelter" /> 
+<item component="ComponentInfo{com.drdisagree.colorblendr/com.drdisagree.colorblendr.ui.activities.SplashActivity}" drawable="colorblendr" name="ColorBlendr" /> 
+<item component="ComponentInfo{com.panruyiapp.auto.scroll.assistant.cn/com.panruyiapp.auto.scroll.assistant.SplashActivity}" drawable="touch_the_notch" name="自动手势" /> 
+<item component="ComponentInfo{com.xjcheng.musictageditor/com.xjcheng.musictageditor.MainActivity}" drawable="music_tag_editor" name="音乐标签" /> 
+<item component="ComponentInfo{com.mfcloudcalculate.networkdisk/com.mfcloudcalculate.networkdisk.activity.SplashActivity}" drawable="_123_cloud_drive" name="123云盘 -123 Cloud Drive" /> 
+<item component="ComponentInfo{com.mfcloudcalculate.networkdisk/com.mfcloudcalculate.networkdisk.MainActivity}" drawable="_123_cloud_drive" name="123云盘 -123 Cloud Drive" /> 
+<item component="ComponentInfo{com.mfcloudcalculate.networkdisk/com.mfcloudcalculate.networkdisk.activity.LauncherActivity}" drawable="_123_cloud_drive" name="123云盘 -123 Cloud Drive" /> 
+<item component="ComponentInfo{com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen.Alias0}" drawable="baidu_maps" name="百度地图 -Baidu Maps" /> 
+<item component="ComponentInfo{com.baidu.BaiduMap/com.baidu.baidumaps.WelcomeScreen}" drawable="baidu_maps" name="百度地图 -Baidu Maps" /> 
+<item component="ComponentInfo{com.baidu.netdisk/com.baidu.netdisk.ui.SvipLauncherActivity}" drawable="baidu_netdisk" name="百度网盘 -Baidu Netdisk" /> 
+<item component="ComponentInfo{com.baidu.netdisk/com.baidu.netdisk.ui.DefaultMainActivity}" drawable="baidu_netdisk" name="百度网盘 -Baidu Netdisk" /> 
+<item component="ComponentInfo{com.baidu.tieba/com.baidu.tieba.tblauncher.MainTabActivity}" drawable="baidu_tieba" name="百度贴吧 -Baidu Tieba" /> 
+<item component="ComponentInfo{com.baidu.input/com.baidu.input.ImeLauncherActivity}" drawable="baidu_ime" name="百度输入法 -Baidu IME" /> 
+<item component="ComponentInfo{com.zhihu.android/com.zhihu.android.app.ui.activity.LauncherActivity}" drawable="zhihu" name="知乎 -Zhihu" /> 
+<item component="ComponentInfo{com.tencent.qqlive/com.tencent.qqlive.ona.activity.SplashHomeActivity}" drawable="tencent_video" name="腾讯视频 -Tencent Video -WeTV" /> 
+<item component="ComponentInfo{com.tencent.qqlivehd/com.tencent.qqlivehd.activity.WelcomeActivity}" drawable="tencent_video" name="腾讯视频 -Tencent Video -WeTV" /> 
+<item component="ComponentInfo{com.tencent.qqlive/com.tencent.qqlive.ona.activity.WelcomeActivity}" drawable="tencent_video" name="腾讯视频 -Tencent Video -WeTV" /> 
+<item component="ComponentInfo{com.tencent.qqlive/com.tencent.qqlive.ona.activity.StartActivity}" drawable="tencent_video" name="腾讯视频 -Tencent Video -WeTV" /> 
+<item component="ComponentInfo{com.tencent.qqlive/com.tencent.qqlive.activity.WelcomeActivity}" drawable="tencent_video" name="腾讯视频 -Tencent Video -WeTV" /> 
+<item component="ComponentInfo{com.tencent.qqlivei18n.us/com.tencent.qqliveinternational.base.MainActivity}" drawable="tencent_video" name="腾讯视频 -Tencent Video -WeTV" /> 
+<item component="ComponentInfo{com.tencent.qqlivei18n/com.tencent.qqliveinternational.base.MainActivity}" drawable="tencent_video" name="腾讯视频 -Tencent Video -WeTV" /> 
+<item component="ComponentInfo{com.umetrip.android.msky.app/com.umetrip.android.msky.app.module.startup.SplashActivity}" drawable="umetrip" name="航旅纵横 -Umetrip" /> 
+<item component="ComponentInfo{com.cainiao.wireless/com.cainiao.wireless.homepage.view.activity.WelcomeActivity}" drawable="cainiao" name="菜鸟 -Cainiao" /> 
+<item component="ComponentInfo{com.dragon.read/com.dragon.read.pages.splash.SplashActivity}" drawable="dragon_read" name="番茄免费小说 -Dragon Read" /> 
+<item component="ComponentInfo{com.bilibili.app.blue/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili" name="BiliBili" /> 
+<item component="ComponentInfo{tv.danmaku.bili/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili" name="BiliBili" /> 
+<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili" name="BiliBili" /> 
+<item component="ComponentInfo{com.bstar.intl/tv.danmaku.bili.ui.splash.SplashActivity}" drawable="bilibili" name="BiliBili" /> 
+<item component="ComponentInfo{tv.danmaku.bili/tv.danmaku.bili.MainActivityV2}" drawable="bilibili" name="BiliBili" /> 
+<item component="ComponentInfo{com.bilibili.app.in/tv.danmaku.bili.MainActivityV2}" drawable="bilibili" name="BiliBili" /> 
+<item component="ComponentInfo{com.bilibili.app.blue/tv.danmaku.bili.MainActivityV2}" drawable="bilibili" name="BiliBili" /> 
+<item component="ComponentInfo{com.bilibili.comic/com.bilibili.comic.splash.view.activity.SplashActivity}" drawable="bilibili" name="BiliBili" /> 
+<item component="ComponentInfo{com.weixiao.bz/com.weixiao.bz.MainActivity}" drawable="bilibili_helper" name="BiliBili vip 4-in-1" /> 
+<item component="ComponentInfo{com.uusense.speed/com.uusense.uuspeed.ui.activity.GuideActivity}" drawable="huawei_petal_speed" name="测网速" /> 
+<item component="ComponentInfo{com.ct.client/com.ct.client.activity.SplashActivity}" drawable="china_telecom" name="中国电信 -China Telecom" /> 
+<item component="ComponentInfo{com.ct.client/com.ct.client.SplashActivity}" drawable="china_telecom" name="中国电信 -China Telecom" /> 
+<item component="ComponentInfo{com.xwtec.sd.mobileclient/com.xwtec.sd.mobileclient.ui.activity.MainTabActivity}" drawable="china_mobile" name="中国移动 -China Mobile" /> 
+<item component="ComponentInfo{com.greenpoint.android.mc10086.activity/com.mc10086.cmcc.base.StartPageActivity}" drawable="china_mobile" name="中国移动 -China Mobile" /> 
+<item component="ComponentInfo{com.sinovatech.unicom.ui/com.sinovatech.unicom.basic.ui.activity.WelcomeClient}" drawable="china_unicom" name="中国联通 -China Unicom" /> 
+<item component="ComponentInfo{com.chinamworld.bocmbci/com.boc.bocsoft.mobile.bocmobile.buss.system.splash.SplashActivity}" drawable="bank_of_china" name="中国银行 -Bank of China" /> 
+<item component="ComponentInfo{com.xingin.xhs/com.xingin.xhs.index.v2.IndexActivityV2}" drawable="xiaohongshu" name="小红书 -Xiaohongshu" /> 
+<item component="ComponentInfo{com.tencent.weread/com.tencent.weread.LauncherActivity}" drawable="weread" name="微信读书 -WeRead" /> 
+<item component="ComponentInfo{com.tencent.weread/com.tencent.weread.presenter.LauncherActivity}" drawable="weread" name="微信读书 -WeRead" /> 
+<item component="ComponentInfo{com.tencent.wetype/com.tencent.wetype.plugin.hld.reactnative.activity.ImeMainSettingActivity}" drawable="wetype" name="微信输入法 -WeType" /> 
+<item component="ComponentInfo{com.sina.weibo/com.sina.weibo.SplashActivity}" drawable="weibo" name="微博 -Weibo" /> 
+<item component="ComponentInfo{com.weico.international/com.weico.international.activity.LogoActivity}" drawable="weibo" name="微博 -Weibo" /> 
+<item component="ComponentInfo{com.sina.weibocare/com.weico.international.activity.LogoActivity}" drawable="weibo" name="微博 -Weibo" /> 
+<item component="ComponentInfo{com.weico.international/com.weico.international.appicon_white}" drawable="weibo" name="微博 -Weibo" /> 
+<item component="ComponentInfo{com.sina.weibolite/com.sina.weibolite.appicon_white}" drawable="weibo" name="微博极速版 -Weibo Lite" /> 
+<item component="ComponentInfo{com.xunmeng.pinduoduo/com.xunmeng.pinduoduo.ui.activity.MainFrameActivity}" drawable="pinduoduo" name="拼多多 -Pinduoduo" /> 
+<item component="ComponentInfo{ctrip.android.view/ctrip.business.splash.CtripSplashActivity}" drawable="ctrip" name="携程旅行 -Ctrip" /> 
+<item component="ComponentInfo{com.taobao.taobao/com.taobao.tao.Welcome}" drawable="taobao" name="淘宝 -Taobao" /> 
+<item component="ComponentInfo{com.taobao.taobao/com.androlua.Welcome}" drawable="taobao" name="淘宝 -Taobao" /> 
+<item component="ComponentInfo{com.taobao.taobao/com.taobao.tao.welcome.Welcome}" drawable="taobao" name="淘宝 -Taobao" /> 
+<item component="ComponentInfo{com.taobao.movie.android/com.taobao.movie.android.app.home.activity.MainActivity}" drawable="taopiaopiao" name="淘票票 -Taopiaopiao" /> 
+<item component="ComponentInfo{com.farplace.qingzhuo/com.farplace.qingzhuo.views.SplashActivity}" drawable="qingzhuo" name="清浊 -Qingzhuo" /> 
+<item component="ComponentInfo{com.fvcorp.android.aijiasuclient/com.fvcorp.android.fvclient.activity.SplashActivity}" drawable="aijiasu" name="爱加速 -Aijiasu" /> 
+<item component="ComponentInfo{com.qiyi.video/com.qiyi.video.WelcomeActivity}" drawable="iqiyi" name="爱奇艺 -iQIYI" /> 
+<item component="ComponentInfo{com.byyoung.setting/com.byyoung.setting.Welcome}" drawable="byyoung" name="爱玩机工具箱-Byyoung" /> 
+<item component="ComponentInfo{com.byyoung.setting/com.byyoung.setting.LauncherActivity}" drawable="byyoung" name="爱玩机工具箱 -Byyoung" /> 
+<item component="ComponentInfo{com.levelinfinite.sgameGlobal.midaspay/com.levelinfinite.sgameGlobal.SGameGlobalActivity}" drawable="honor_of_kings" name="王者荣耀 -Honor of Kings" /> 
+<item component="ComponentInfo{com.levelinfinite.sgameGlobal/com.levelinfinite.sgameGlobal.SGameGlobalActivity}" drawable="honor_of_kings" name="王者荣耀 -Honor of Kings" /> 
+<item component="ComponentInfo{com.tencent.tmgp.sgame/com.putaolab.ptsdk.activity.PTMainActivity}" drawable="honor_of_kings" name="王者荣耀 -Honor of Kings" /> 
+<item component="ComponentInfo{com.tencent.tmgp.sgame/com.tencent.tmgp.sgame.SGameActivity}" drawable="honor_of_kings" name="王者荣耀 -Honor of Kings" /> 
+<item component="ComponentInfo{com.lucky.luckyclient/com.luckin.client.main.splash.SplashActivity}" drawable="luckin_coffe" name="瑞幸咖啡 -Luckin Coffee" /> 
+<item component="ComponentInfo{com.dragon.read/com.dragon.read.pages.splash.SplashActivity}" drawable="dragon_read" name="番茄免费小说 -Dragon Read" /> 
+<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.launcher.splash.SplashIconPixelActivity}" drawable="aliyundrive" name="阿里云盘 -AliyunDrive" /> 
+<item component="ComponentInfo{com.alicloud.databox/com.alicloud.databox.launcher.splash.SplashActivity}" drawable="aliyundrive" name="阿里云盘 -AliyunDrive" /> 
+<item component="ComponentInfo{android.zhibo8/android.zhibo8.ui.contollers.main.LaunchActivity}" drawable="_8_ball_pool" name="直播吧" /> 
+<item component="ComponentInfo{com.adobe.ims.accountaccess/com.zoontek.rnbootsplash.RNBootSplashActivity}" drawable="adobe_account_access" name="Adobe Account Access" /> 
+<item component="ComponentInfo{com.adobe.reader/com.adobe.reader.AdobeReader}" drawable="adobe" name="Adobe Acrobat Reader" /> 
+<item component="ComponentInfo{com.adobe.creativeapps.gather/com.adobe.creativeapps.gather.activity.GatherSplashScreenActivity}" drawable="adobe_capture" name="Adobe Capture" /> 
+<item component="ComponentInfo{com.adobe.cc/com.adobe.cc.SplashScreen}" drawable="adobe_creative_cloud" name="Adobe Creative Cloud" /> 
+<item component="ComponentInfo{com.adobe.psmobile/com.adobe.psmobile.SplashScreen}" drawable="adobe_express" name="Photoshop" /> 
+<item component="ComponentInfo{com.adobe.spark.post/com.adobe.spark.view.main.SplashActivity}" drawable="adobe_express" name="Adobe Express" /> 
+<item component="ComponentInfo{com.adobe.fas/com.adobe.fas.Home.FillAndSign}" drawable="adobe_fill_sign" name="Adobe Fill &amp; Sign" /> 
+<item component="ComponentInfo{com.adobe.adobephotoshopfix/com.adobe.adobephotoshopfix.activity.FCSplashScreenActivity}" drawable="adobe_photoshop_fix" name="Adobe Photoshop Fix" /> 
+<item component="ComponentInfo{com.adobe.adobephotoshopfix/com.adobe.adobephotoshopfix.FCSplashScreenActivity}" drawable="adobe_photoshop_fix" name="Adobe Photoshop Fix" /> 
+<item component="ComponentInfo{com.adobe.photoshopmix/com.adobe.photoshopmix.activity.SplashScreenActivity}" drawable="adobe_photoshop_mix" name="Adobe Photoshop Mix" /> 
+<item component="ComponentInfo{com.adobe.photoshopmix/com.adobe.photoshopmix.SplashScreenActivity}" drawable="adobe_photoshop_mix" name="Adobe Photoshop Mix" /> 
+<item component="ComponentInfo{air.com.adobe.pstouch/air.com.adobe.pstouch.AppEntry}" drawable="adobe_photoshop_touch" name="Adobe Photoshop Touch" /> 
+<item component="ComponentInfo{air.com.adobe.pstouchphone/com.jobernowl.MainActivity}" drawable="adobe_photoshop_touch" name="Adobe Photoshop Touch" /> 
+<item component="ComponentInfo{air.com.adobe.pstouchphone/air.com.adobe.pstouchphone.AppEntry}" drawable="adobe_photoshop_touch" name="Adobe Photoshop Touch" /> 
+<item component="ComponentInfo{com.adobe.premiererush.videoeditor/com.adobe.rush.splashscreen.controllers.SplashScreenActivity}" drawable="adobe_premiere_rush" name="Adobe Premiere Rush" /> 
+<item component="ComponentInfo{com.adobe.scan.android/com.adobe.scan.android.SplashActivity}" drawable="adobe_scan" name="Adobe Scan" /> 
+<item component="ComponentInfo{com.adobe.scan.android/sample.example.dhruv.sample_apk.MainActivity}" drawable="adobe_scan" name="Adobe Scan" /> 
+<item component="ComponentInfo{make.more.r2d2.cellular_pro/make.more.r2d2.cellular_pro.activity.SplashGuideActivity}" drawable="cell_to_singularity_evolution" name="cellular pro" /> 
+<item component="ComponentInfo{com.ilixa.chroma/com.ilixa.chroma.ChromaActivity}" drawable="chroma_lab" name="Chroma Lab" /> 
+<item component="ComponentInfo{com.google.chromeremotedesktop/com.google.remoting.androidwrapper.MainActivity}" drawable="chrome_remote_desktop" name="Chrome Remote Desktop" /> 
+<item component="ComponentInfo{com.google.chromeremotedesktop/org.chromium.chromoting.Chromoting}" drawable="chrome_remote_desktop" name="Chrome Remote Desktop" /> 
+<item component="ComponentInfo{org.chromium.chrome.stable/com.google.android.apps.chrome.Main}" drawable="google_chrome" name="Chromium" /> 
+<item component="ComponentInfo{org.ungoogled.chromium.stable/com.google.android.apps.chrome.Main}" drawable="google_chrome" name="Chromium" /> 
+<item component="ComponentInfo{org.ungoogled.chromium.stable/com.google.android.apps.chrome.Main}" drawable="google_chrome" name="Chromium" /> 
+<item component="ComponentInfo{com.jingdong.app.mall/com.jingdong.app.mall.main.MainActivity}" drawable="jd" name="京东 -JD" /> 
+<item component="ComponentInfo{com.youku.international.phone/com.youku.phone.ActivityWelcome}" drawable="youku" name="优酷 -Youku" /> 
+<item component="ComponentInfo{com.youku.phone/com.youku.phone.ActivityWelcome}" drawable="youku" name="优酷 -Youku" /> 
+<item component="ComponentInfo{com.cmcc.cmvideo/com.cmcc.cmvideo.splash.SplashActivity}" drawable="video_to_mp3" name="咪咕视频" /> 
+<item component="ComponentInfo{com.chinamobile.mcloudlite/com.chinamobile.mcloud.client.ui.logo.LogoActivity}" drawable="nextcloud" /> 
+<item component="ComponentInfo{com.chinamobile.mcloud/com.chinamobile.mcloud.client.ui.MenuActivityy}" drawable="nextcloud" /> 
+<item component="ComponentInfo{com.kuaishou.nebula/com.yxcorp.gifshow.HomeActivity}" drawable="video_maker" /> 
+<item component="ComponentInfo{com.dz.hmjc/com.dz.business.splash.refactor.ColdSplashActivity}" drawable="panda_video_compressor" /> 
+<item component="ComponentInfo{com.xs.fm/com.dragon.read.pages.splash.SplashActivity}" drawable="apex_music" /> 
+<item component="ComponentInfo{com.xs.fm.lite/com.dragon.read.pages.splash.SplashActivity}" drawable="vinyl_music_player" /> 
+<item component="ComponentInfo{com.ss.android.ugc.live/com.ss.android.ugc.aweme.splash.SplashActivity}" drawable="tiktok_now" /> 
+<item component="ComponentInfo{com.xxv.xxvone/com.zq.douyin.MainActivity4}" drawable="movies_anywhere" /> 
+<item component="ComponentInfo{cc.vidhub.app/cc.vidhub.app.MainActivity}" drawable="film_maker_pro" /> 
+<item component="ComponentInfo{com.tencent.qqmusiclite/com.tencent.qqmusiclite.SplashActivity}" drawable="qqmusic" /> 
+<item component="ComponentInfo{Mi.music.fast/com.tencent.a.SetupInfoActivity}" drawable="oto_music" /> 
+<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.app.openscreenad.SplashActivity}" drawable="es_file_explorer" name="ES File Explorer" /> 
+<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.app.adgad.GdtSplashActivity}" drawable="es_file_explorer" name="ES File Explorer" /> 
+<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.view.FileExplorerActivity}" drawable="es_file_explorer" name="ES File Explorer" /> 
+<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.resmanager.view.FileExplorerActivity}" drawable="es_file_explorer" name="ES File Explorer" /> 
+<item component="ComponentInfo{com.estrongs.android.pop/com.estrongs.android.pop.app.openscreenad.NewSplashActivity}" drawable="es_file_explorer" name="ES File Explorer" /> 
+<item component="ComponentInfo{com.androidjks.sf.d1744112517683194157/com.grass.mh.SplashActivity}" drawable="tsavaari" /> 
+<item component="ComponentInfo{com.ai.obc.cbn.app/com.ai.obc.cbn.app.ui.other.activity.SplashActivity}" drawable="cats_crash_arena_turbo_stars" /> 
+<item component="ComponentInfo{com.qb.qtranslator/com.qb.qtranslator.qactivity.SplashActivity}" drawable="translate_you"  name="腾讯翻译君" /> 
+</resources>
